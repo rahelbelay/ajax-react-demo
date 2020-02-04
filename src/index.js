@@ -4,13 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import axios from 'axios'
-const API_ENDPOINT = 'https://swapi.co/api/people/1/?format=wookiee';
 
-axios.get(API_ENDPOINT)
-    .then(response => {
-        console.log(response);
-    })
 
 
 
